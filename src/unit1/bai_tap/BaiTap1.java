@@ -18,6 +18,10 @@ public class BaiTap1 {
 		System.out.println("x = " + x + " la so nguyen to");
 		return;
 	}
+	if (x%2 == 0) {
+		System.out.println("x = " + x + " khong phai so nguyen to");
+		return;
+	}
         for (int i = 2; i <= Math.sqrt(x); i += 1) {
             if (x % i == 0) {
                 System.out.println("x = " + x + " khong phai so nguyen to");
