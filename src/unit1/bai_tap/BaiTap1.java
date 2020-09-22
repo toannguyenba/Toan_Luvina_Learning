@@ -22,7 +22,7 @@ public class BaiTap1 {
 		System.out.println("x = " + x + " khong phai so nguyen to");
 		return;
 	}
-        for (int i = 2; i <= Math.sqrt(x); i += 1) {
+        for (int i = 3; i <= Math.sqrt(x); i += 2) {
             if (x % i == 0) {
                 System.out.println("x = " + x + " khong phai so nguyen to");
                 return;
