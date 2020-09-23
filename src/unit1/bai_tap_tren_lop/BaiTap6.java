@@ -3,10 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package unit1.bai_tap;
-
-import java.util.ArrayList;
-import java.util.List;
+package unit1.bai_tap_tren_lop;
 
 /**
  *
