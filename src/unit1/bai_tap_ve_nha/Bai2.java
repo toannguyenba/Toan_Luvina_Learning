@@ -10,31 +10,29 @@ public class Bai2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int A[] = { 3, 2, 3, 6, 4, 5, 6, 9, 10, 4, 3, 6, 7, 8, 9 };
-		bai2_2(A);
+		bai2_1(A);
 	}
 
-	public static void bai2_1(int[] A) {
+	public static void bai2_1(int[] A) { // sua lai
 		int i = 0;
 		int max_length = 1;
 		int i_start = 0;
-		while (max_length + i <= A.length) {
-			int length = 1, j = i;
-			while (j < A.length - 1 && A[j + 1] > A[j]) {
-				length++;
-				j++;
-			}
-			if (length > max_length) {
-				max_length = length;
-				i_start = i;
-			}
+                int length = 1;
+		while (i < A.length - 1) {
+                        if (A[i + 1] > A[i]){
+                            length++;
+                        } else {
+                            length = 1;
+                            i_start = i;
+                        }
 			i++;
 		}
 		System.out.println("vi tri dau: " + (i_start + 1));
 		System.out.println("vi tri cuoi: " + (i_start + max_length));
 	}
 
-	public static void bai2_2(int[] A) {
-		int i = 0, x = 0; // x la so doan con tang dan co chieu dai max
+	public static void bai2_2(int[] A) { // sua lai
+		int i = 0, x = 1; // x la so doan con tang dan co chieu dai max
 		int max_length = 1;
 		int[] i_start = new int[A.length];
 		while (max_length + i <= A.length) {

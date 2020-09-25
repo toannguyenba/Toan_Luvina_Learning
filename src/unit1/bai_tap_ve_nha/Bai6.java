@@ -41,7 +41,7 @@ public class Bai6 {
 		int i = 1;
 		rs[0] = stknz.nextToken();
 		rs[1] = "";
-		while (stknz.hasMoreElements() && i < stknz.countTokens()) {
+		while (stknz.hasMoreElements()) {
 			rs[1] = rs[1] + stknz.nextToken() + " ";
 		}
 		rs[1] = rs[1].trim();

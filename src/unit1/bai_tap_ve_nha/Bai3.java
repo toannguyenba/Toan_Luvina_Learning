@@ -7,7 +7,7 @@ public class Bai3 {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
 
-        int[] A = {4, 6, 9, 10, 17, 22};
+        int[] A = {4, 6, 9, 10, 17, 22}; // sua lai 1 chut
         int x = 7;
         A[A.length - 1] = x;
         for (int i = A.length - 1; i > 0; i--) {
