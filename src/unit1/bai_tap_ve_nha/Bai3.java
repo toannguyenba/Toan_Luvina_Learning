@@ -10,15 +10,16 @@ public class Bai3 {
         int[] A = {4, 6, 9, 10, 17, 22}; // sua lai 1 chut
         int x = 7;
         A[A.length - 1] = x;
-        for (int i = A.length - 1; i > 0; i--) {
+        int i;
+        for (i = A.length - 1; i > 0; i--) {
             if (x > A[i-1]) {
                 break;
             } else {
                 A[i] = A[i-1];
-                A[i-1] = x;
             }
         }
-        for(int i = 0; i < A.length; i++) {
+        A[i] = x;
+        for(i = 0; i < A.length; i++) {
             System.out.print(A[i] + " ");
         }
     }
