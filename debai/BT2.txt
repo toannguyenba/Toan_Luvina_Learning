@@ -1,0 +1,14 @@
+1. Làm lại các bài của buổi 1 (ko nộp)
+
+2. Luyện tập tất các các ví dụ trong bài hướng đối tượng (ko nộp)
+
+3. Lập trình 06 thuật toán sx như trong file excel
+
+4. Sắp xếp các số lẻ tăng dần nhưng giá trị khác giữ nguyên vị trí
+
+5. Sắp xếp các số dương tăng dần, các số âm giữ nguyên vị trí
+
+6. Sắp xếp các số dương tăng dần, các số âm giảm dần.   
+
+
+ 
