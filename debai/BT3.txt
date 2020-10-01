@@ -1,0 +1,17 @@
+1. Cho int [] A={11,6, 7,8,9,10}
+1.1. Dùng DataOutputStream ghi các giá trị của mảng A ra file "Bai1-1.txt";
+1.2. Dùng DataInputStream đọc dữ liệu từ file Bai1-1.txt, sắp xếp các giá trị đọc được theo thứ tự tăng dần sau đó ghi ra file "Bai1-2.txt";
+
+2. Cho int [] A=1, 7, 9, 14}tăng dần và giá trị x=5
+2.1. Dùng RandomAccessFile ghi mảng A ra file Bai2.txt
+2.2. Đọc file Bai2.txt và chèn x vào để nội dugn của file gồm các giá trị liên tiếp tăng dần.
+
+3. Dùng notepad soạn 1 file text (Bai3-1.txt) gồm các câu.
+  Dùng FileReader đọc và sửa lỗi soạn thảo (sau dấu chấm phải viết hoa, sau dấu chấm, phảy phải có chỉ 1 dấu cách) và dùng FileWriter để ghi ra file Bai3-2.txt
+
+4. Luyên tập try/catch/finally; Luyện tập các lớp streams khác
+
+5. Tính giá trị định thức của một ma trận vuông theo phương pháp biến đổi thành ma trận tam giác. (3 vòng lặp)
+
+6. Tham khảo: ObjectInputStream và ObjectOutputStream
+Xem ví dụ: https://www.boraji.com/java-objectinputstream-and-objectoutputstream-example
